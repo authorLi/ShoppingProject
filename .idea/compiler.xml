@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="mapper" />
+        <module name="order" />
+        <module name="pojo" />
+        <module name="portal" />
+        <module name="restful" />
+        <module name="search" />
+        <module name="service" />
+        <module name="sso" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.7" />
+      <module name="manager" target="1.7" />
+      <module name="mapper" target="1.7" />
+      <module name="order" target="1.7" />
+      <module name="parent" target="1.7" />
+      <module name="pojo" target="1.7" />
+      <module name="portal" target="1.7" />
+      <module name="restful" target="1.7" />
+      <module name="search" target="1.7" />
+      <module name="service" target="1.7" />
+      <module name="sso" target="1.7" />
+      <module name="web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

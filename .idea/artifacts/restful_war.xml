@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restful:war">
+    <output-path>$PROJECT_DIR$/restful/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>restful</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="restful.war">
+      <element id="artifact" artifact-name="restful:war exploded" />
+    </root>
+  </artifact>
+</component>

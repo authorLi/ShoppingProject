@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 配置分页插件，分页插件对逆向工程自动生成的代码支持不好，不能对有查询条件的查询进行分页，会抛异常-->
+    <plugins>
+        <!-- 这里注意自从4.0.0版本之后就不再实现com.github.pagehelper.PageHelper接口了，转而实现com.github.pagehelper.PageInterceptor接口-->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 设置数据库类型 Oracle Mysql MariaDB SQLite Hsqldb PostgreSQL-->
+            <!-- 自4.0.0版本之后可以自动识别数据库类型了，就不用配置了-->
+            <!--<property name="dialect" value="mysql" />-->
+        </plugin>
+
+    </plugins>
+</configuration>
